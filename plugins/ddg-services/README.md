@@ -1,8 +1,9 @@
 # ddg-services
 
 Remote MCP server for [DDG Agent Services](https://agents.daedalusdevelopmentgroup.com):
-54 tools over one streamable-HTTP endpoint, backed by 376 live pay-per-call
-x402 routes on USDC. No account, no API key, no human checkout.
+54 tools over one streamable-HTTP endpoint, backed by 376 live HTTP x402 routes
+(410 services in the live catalog — 376 HTTP paths plus tool-level services) on
+USDC. No account, no API key, no human checkout.
 
 ```text
 Endpoint: https://mcp.daedalusdevelopmentgroup.com/mcp
@@ -23,6 +24,8 @@ Tools:    54
 
 So an agent can price, plan, and validate an integration without spending
 anything. Nothing is charged until the agent itself supplies payment headers.
+The catalog also carries permanently free routes (`price_usd: "0.00"` — chain
+status, rules/spec lookups); `ddg_list_services` flags them.
 
 ## Paid calls
 
