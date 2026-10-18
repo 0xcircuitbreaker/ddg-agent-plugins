@@ -1,0 +1,37 @@
+{
+  "name": "ddg-agent-plugins",
+  "description": "Daedalus Development Group agent services: a live x402 payable API catalog over one remote MCP server, plus free audit/safety skills for agents.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Daedalus Development Group",
+    "email": "agents@daedalusdevelopmentgroup.com"
+  },
+  "plugins": [
+    {
+      "name": "ddg-services",
+      "source": "./plugins/ddg-services",
+      "description": "54-tool remote MCP server for DDG Agent Services: discover 376 pay-per-call x402 routes, call them, quote payment challenges, check status. No account, no API key.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daedalus Development Group"
+      },
+      "homepage": "https://agents.daedalusdevelopmentgroup.com",
+      "repository": "https://github.com/0xcircuitbreaker/ddg-agent-plugins",
+      "license": "MIT",
+      "keywords": ["x402", "mcp", "agent-payments", "usdc", "base", "api-catalog"]
+    },
+    {
+      "name": "ddg-skills-starter",
+      "source": "./plugins/ddg-skills-starter",
+      "description": "Five free guardrail skills: fleet audit starter, UNKNOWN-is-not-pass, agent price parity, cron outreach safety gate, x402 facilitator health check.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Daedalus Development Group"
+      },
+      "homepage": "https://agents.daedalusdevelopmentgroup.com",
+      "repository": "https://github.com/0xcircuitbreaker/ddg-agent-plugins",
+      "license": "MIT",
+      "keywords": ["skills", "guardrails", "audit", "x402", "outreach-safety"]
+    }
+  ]
+}

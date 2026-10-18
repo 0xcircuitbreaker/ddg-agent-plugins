@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ddg-agent-services": {
+      "type": "http",
+      "url": "https://mcp.daedalusdevelopmentgroup.com/mcp"
+    }
+  }
+}

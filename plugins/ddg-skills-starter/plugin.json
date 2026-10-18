@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ddg-skills-starter",
+  "version": "1.0.0",
+  "description": "Five free guardrail skills for agents that touch money, audits, or outbound messaging: fleet audit starter, UNKNOWN-is-not-pass, agent price-parity check, cron outreach safety gate, and x402 facilitator health check.",
+  "author": {
+    "name": "Daedalus Development Group",
+    "email": "agents@daedalusdevelopmentgroup.com",
+    "url": "https://agents.daedalusdevelopmentgroup.com"
+  },
+  "homepage": "https://agents.daedalusdevelopmentgroup.com",
+  "repository": "https://github.com/0xcircuitbreaker/ddg-agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "guardrails",
+    "audit",
+    "x402",
+    "provenance",
+    "outreach-safety"
+  ]
+}

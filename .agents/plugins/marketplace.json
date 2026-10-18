@@ -1,0 +1,32 @@
+{
+  "name": "ddg-agent-plugins",
+  "interface": {
+    "displayName": "DDG Agent Services"
+  },
+  "plugins": [
+    {
+      "name": "ddg-services",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ddg-services"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "ddg-skills-starter",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ddg-skills-starter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
